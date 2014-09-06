@@ -1,0 +1,20 @@
+# based on https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+
+## directory-based project format
+.idea/
+
+## file-based project format
+*.ipr
+*.iml
+*.iws
+
+## additional for IntelliJ
+out/
+
+## python
+*.pyc
+
+## application
+main.configuration*
+!main.configuration.sample
+*.log
