@@ -2,7 +2,7 @@ twitcasting alert
 ==
 monitoring specified user's twitcasting and tweet when live starts.
 
-![screenshot](./sample/screenshot.png)
+<!-- ![screenshot](./sample/screenshot.png) -->
 
 setup
 --
