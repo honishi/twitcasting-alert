@@ -15,6 +15,8 @@ out/
 *.pyc
 
 ## application
+log/
 main.configuration*
 !main.configuration.sample
-*.log
+tcalert.env*
+!tcalert.env.sample

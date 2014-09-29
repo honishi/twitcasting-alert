@@ -12,10 +12,18 @@ pyenv local twitcasting-alert-3.3.3
 pip install -r requirements.txt
 ````
 
-kick
+start & stop
 --
 ````
-python ./main.py
+./tcalert.sh start
+./tcalert.sh stop
+````
+
+monitoring example using cron
+--
+see `tcalert.sh` inside for details of monitoring.
+````
+* * * * * /path/to/twitcasting-alert/tcalert.sh monitor >> /path/to/twitcasting-alert/log/monitor.log 2>&1 
 ````
 
 license
